@@ -18,7 +18,7 @@ public class Fish : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(flag != 2){//if game hasnt ended
             if (transform.position.y > -5)  //if fish is in the correct postion, move the fish down
