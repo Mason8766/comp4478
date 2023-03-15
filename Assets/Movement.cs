@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     }  
   
     // Update is called once per frame  
-    void Update()  
+    void FixedUpdate()  
     {  
         if (flag == 0){ //if the game hasnt ended 
             if (Input.GetKey(KeyCode.A))  
