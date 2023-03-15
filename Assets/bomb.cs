@@ -18,7 +18,7 @@ public class bomb : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (flag == 1){ //if the bomb is selected, move the bomb
              transform.Translate(0.0f, -0.11f, 0f);  
